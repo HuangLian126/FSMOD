@@ -9,9 +9,9 @@ The source code is based on  [https://github.com/facebookresearch/maskrcnn-bench
 ## Installation
 Check INSTALL.md for installation instructions. Since maskrcnn-benchmark has been deprecated, please follow these instructions carefully (e.g. version of Python packages).
 
-## Prepare Pascal VOC datasets
-First, you need to download the VOC datasets [here](https://drive.google.com/file/d/14muqZUdbpnYQ_30ZpAP9KqrVVHSkJOhU/view?usp=sharing).
-Then, put "datasets" into this repository. The "datasets" contains the original VOC2007/2012 datasets and correspondiing class split. 
+## Prepare FSMOD dataset
+First, you need to download the FSMOD datasets [here](https://drive.google.com/file/d/14muqZUdbpnYQ_30ZpAP9KqrVVHSkJOhU/view?usp=sharing).
+Then, put "datasets" into this repository. The "datasets" contains the base set and novel set. 
 
 ## Training and Evaluation
 1. Run the following for base training and novel training on Pascal VOC splits-1.
