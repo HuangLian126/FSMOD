@@ -7,9 +7,10 @@
 The source code is based on  [https://github.com/facebookresearch/maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) and developed with Python 3.7 & PyTorch 1.1.0.
 
 ## Installation
-1. cd apex
-   python setup.py install --cuda_ext --cpp_ext
-2. python setup.py build develop
+1. cd FSMOD/apex
+2. python setup.py install --cuda_ext --cpp_ext
+3. cd FSMOD
+4. python setup.py build develop
 
 ## Prepare FSMOD dataset
 First, you need to download the FSMOD dataset [here](https://drive.google.com/file/d/14muqZUdbpnYQ_30ZpAP9KqrVVHSkJOhU/view?usp=sharing).
