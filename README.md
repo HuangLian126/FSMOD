@@ -10,7 +10,7 @@ The source code is based on  [https://github.com/facebookresearch/maskrcnn-bench
 Check INSTALL.md for installation instructions. Since maskrcnn-benchmark has been deprecated, please follow these instructions carefully (e.g. version of Python packages).
 
 ## Prepare FSMOD dataset
-First, you need to download the FSMOD datasets [here](https://drive.google.com/file/d/14muqZUdbpnYQ_30ZpAP9KqrVVHSkJOhU/view?usp=sharing).
+First, you need to download the FSMOD dataset [here](https://drive.google.com/file/d/14muqZUdbpnYQ_30ZpAP9KqrVVHSkJOhU/view?usp=sharing).
 Then, put "datasets" into this repository.
 
 ## Training and Evaluation
