@@ -1,0 +1,7 @@
+mAP: 0.1685
+bike            : 0.0909
+car             : 0.2522
+person          : 0.3464
+carstop         : 0.0909
+guardrail       : 0.1006
+colorcone       : 0.1300
