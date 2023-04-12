@@ -17,7 +17,8 @@ Then, put "datasets" into this repository. The "datasets" contains the base set 
 1. Run the following for base training and novel training on Pascal VOC splits-1.
 
 ```bash
-bash tools/fewshot_exp/train_voc_all.sh 
+source activate python37
+python tools/train_net.py --config-file "configs/pascal_voc/e2e_faster_rcnn_R_50_FPN_base.yaml"
 ```
 
 2. Modify them if needed. If you have any question about these parameters (e.g. batchsize), please refer to [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) for quick solutions.
