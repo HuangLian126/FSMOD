@@ -11,7 +11,7 @@ Check INSTALL.md for installation instructions. Since maskrcnn-benchmark has bee
 
 ## Prepare FSMOD dataset
 First, you need to download the FSMOD datasets [here](https://drive.google.com/file/d/14muqZUdbpnYQ_30ZpAP9KqrVVHSkJOhU/view?usp=sharing).
-Then, put "datasets" into this repository. The "datasets" contains the base set and novel set. 
+Then, put "datasets" into this repository.
 
 ## Training and Evaluation
 1. Run the following for base training and novel training on Pascal VOC splits-1.
