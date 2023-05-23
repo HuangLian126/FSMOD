@@ -13,11 +13,7 @@ from ..utils.comm import synchronize
 from ..utils.timer import Timer, get_time_str
 from .bbox_aug import im_detect_bbox_aug
 
-from thop import clever_format
-from thop import profile
-
 def draw(pic_id, boxes, labels):
-    # pic = cv2.imread('/home/hl/hl/ourMetaWithoutFPN/datasets/coco/val2014/' + pic_id, cv2.IMREAD_COLOR)
     pic = cv2.imread('/home/hl/hl/maskrcnn-benchmark-4th/datasets/voc/VOC2007/JPEGImages_t/' + pic_id, cv2.IMREAD_COLOR)
 
     for i in range(len(labels)):
