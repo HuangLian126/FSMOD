@@ -12,10 +12,6 @@ The source code is based on  [https://github.com/facebookresearch/maskrcnn-bench
 3. cd FSMOD
 4. python setup.py build develop
 
-## Prepare FSMOD dataset
-First, you need to download the FSMOD dataset here.
-Then, put "datasets" into this repository.
-
 ## Training and Evaluation
 1. Run the following for base-training and novel-fine-tuning.
 
@@ -24,5 +20,3 @@ python tools/train_net.py --config-file "configs/pascal_voc/e2e_faster_rcnn_R_50
 python classHead_FCiniti.py
 python tools/train_net.py --config-file "configs/pascal_voc/e2e_faster_rcnn_R_50_FPN_novel.yaml"
 ```
-
-2. Modify them if needed. If you have any question about these parameters (e.g. batchsize), please refer to [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) for quick solutions.
