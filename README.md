@@ -13,7 +13,7 @@ The source code is based on  [https://github.com/facebookresearch/maskrcnn-bench
 4. python setup.py build develop
 
 ## Prepare FSMOD dataset
-First, you need to download the FSMOD dataset [here](https://drive.google.com/file/d/1B56_tgmj6P-aOU9t-vT4x92YuZrnFz2I/view?usp=share_link).
+First, you need to download the FSMOD dataset here.
 Then, put "datasets" into this repository.
 
 ## Training and Evaluation
